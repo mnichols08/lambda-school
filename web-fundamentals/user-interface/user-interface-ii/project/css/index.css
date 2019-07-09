@@ -120,7 +120,7 @@ section.first article {
 
 
 .img-break{
-    background: url(../img/mid-page-accent.jpg)
+    background: url(../img/mid-page-accent.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: contain;
