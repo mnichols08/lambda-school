@@ -1,7 +1,7 @@
 ## Week 3: JavaScript Fundamentals
 1. Projects:
-    * [JavaScript I](./javaScript-i)
-    * [JavaScript II](./javaScript-ii)
-    * [JavaScript III](./javaScript-iii)
-    * [JavaScript IV](./javaScript-iv)
+    * [JavaScript I](./javascript-i)
+    * [JavaScript II](./javascript-ii)
+    * [JavaScript III](./javascript-iii)
+    * [JavaScript IV](./javascript-iv)
     * JavaScript Fundamentals Sprint

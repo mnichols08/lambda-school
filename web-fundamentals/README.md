@@ -18,5 +18,5 @@
     * [JavaScript I](./javascript-fundamentals/javascript-i)
     * [JavaScript II](./javascript-fundamentals/javascript-ii)
     * [JavaScript III](./javascript-fundamentals/javascript-iii)
-    * [JavaScript IV](./javascript-dundamentals/javascript-iv)
+    * [JavaScript IV](./javascript-fundamentals/javascript-iv)
     * JavaScript Fundamentals Sprint
