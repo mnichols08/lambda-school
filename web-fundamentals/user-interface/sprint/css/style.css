@@ -1,0 +1,414 @@
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-15rem); }
+  80% {
+    transfrom: translateX(2rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(15rem); }
+  90% {
+    transform: translateX(); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes hue-rotate {
+  0% {
+    filter: hue-rotate(0deg); }
+  100% {
+    filter: hue-rotate(720deg); } }
+
+@keyframes saturate {
+  0% {
+    filter: saturate(0); }
+  100% {
+    filter: saturate(1); } }
+
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes blurIn {
+  0% {
+    filter: blur(1000em); }
+  100% {
+    filter: blur(0); } }
+
+@keyframes blurOut {
+  0% {
+    filter: blur(0); }
+  100% {
+    filter: blur(100em); } }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px; }
+
+body {
+  width: 860px;
+  margin: auto; }
+  @media (max-width: 56.25em) {
+    body {
+      width: 85%;
+      margin: auto; } }
+  @media (max-width: tab-port) {
+    body {
+      width: 85%;
+      margin: auto; } }
+
+.u-text-center {
+  text-align: center; }
+
+.u-margin-right-sm {
+  margin-right: 1.5rem; }
+
+.u-margin-right-md {
+  margin-right: 3rem; }
+  @media (max-width: 37.5em) {
+    .u-margin-right-md {
+      margin-right: 0; } }
+  @media (max-width: phone) {
+    .u-margin-right-md {
+      margin-right: 0; } }
+
+.u-margin-right-lg {
+  margin-right: 8rem; }
+
+.u-margin-left-sm {
+  margin-left: 1.5rem; }
+
+.u-margin-left-md {
+  margin-left: 5rem; }
+
+.u-margin-left-lg {
+  margin-left: 8rem; }
+
+.u-margin-bottom-sm {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-md {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-lg {
+  margin-bottom: 8rem; }
+
+.u-top-lg {
+  margin-top: 8rem; }
+
+.u-top-xl {
+  margin-top: 10rem; }
+
+.u-float-right {
+  float: right; }
+
+.u-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.u-margin-1 {
+  margin: 1em; }
+
+.u-padding-1 {
+  padding: 1em; }
+
+.u-border-1 {
+  border: 1px solid black; }
+
+.w-50 {
+  width: 50%; }
+
+.color-invert {
+  filter: invert(1); }
+
+.color-black {
+  color: #000; }
+
+.bg-grey {
+  background: #eee;
+  border-radius: 3px; }
+
+.box {
+  width: 5em;
+  height: 5em;
+  margin: 1em;
+  position: relative;
+  transition: all .2s; }
+  .box-1 {
+    background: teal;
+    transform: rotate(-45deg); }
+  .box-2 {
+    background: gold;
+    color: #000; }
+  .box-3 {
+    background: cadetblue;
+    color: #000; }
+  .box-4 {
+    background: coral;
+    color: #000; }
+  .box-5 {
+    background: crimson;
+    color: #fff; }
+  .box-6 {
+    background: forestgreen;
+    color: #000; }
+  .box-7 {
+    background: darkorchid;
+    color: #fff; }
+  .box-8 {
+    background: hotpink;
+    color: #fff; }
+  .box-9 {
+    background: indigo;
+    color: #fff; }
+  .box-10 {
+    background: dodgerblue;
+    color: #000; }
+  .box:hover {
+    transform: scale(1.25);
+    box-shadow: 0 1rem 1em rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    text-align: center;
+    vertical-align: center;
+    transition: all .2s; }
+  .box ~ .box {
+    animation: 5.75s hue-rotate infinite;
+    transform: rotate(-45deg); }
+
+.inline-block {
+  display: inline-block; }
+
+.block {
+  display: block;
+  padding: 1em;
+  margin: 1em; }
+
+.flex {
+  display: flex; }
+  @media (max-width: 56.25em) {
+    .flex {
+      flex-direction: column; } }
+  @media (max-width: tab-port) {
+    .flex {
+      flex-direction: column; } }
+  @media (max-width: 56.25em) {
+    .flex-no-respond {
+      flex-direction: row; } }
+  @media (max-width: tab-port) {
+    .flex-no-respond {
+      flex-direction: row; } }
+  .flex-inline {
+    display: inline-flex; }
+  .flex-column {
+    flex-direction: column; }
+    .flex-column-reverse {
+      flex-direction: column-reverse; }
+  .flex-reverse {
+    flex-direction: row-reverse; }
+  .flex-wrap {
+    flex-wrap: wrap; }
+    .flex-wrap-reverse {
+      flex-wrap: wrap-reverse; }
+  .flex-justify-start {
+    justify-content: flex-start; }
+  .flex-justify-end {
+    justify-content: flex-end; }
+  .flex-justify-center {
+    justify-content: center; }
+  .flex-justify-between {
+    justify-content: space-between; }
+  .flex-justify-around {
+    justify-content: space-around; }
+  .flex-justify-even {
+    justify-content: space-evenly; }
+  .flex-content-start {
+    align-content: flex-start; }
+  .flex-content-end {
+    align-content: flex-end; }
+  .flex-content-center {
+    align-content: center; }
+  .flex-content-stretch {
+    align-content: stretch; }
+  .flex-content-around {
+    align-content: space-around; }
+  .flex-content-between {
+    align-content: space-between; }
+  .flex-items-start {
+    align-items: flex-start; }
+  .flex-items-end {
+    align-items: flex-end; }
+  .flex-items-center {
+    align-items: center; }
+  .flex-items-stretch {
+    align-items: stretch; }
+  .flex-items-baseline {
+    align-items: baseline; }
+  .flex-shrink {
+    flex-shrink: 2; }
+    .flex-shrink-more {
+      flex-shrink: 3; }
+  .flex-grow {
+    flex-grow: 2; }
+    .flex-grow-more {
+      flex-grow: 3; }
+  .flex-self-start {
+    align-self: flex-start; }
+  .flex-self-end {
+    align-self: flex-end; }
+
+header {
+  margin-top: 1em;
+  height: 5em; }
+  @media (max-width: 37.5em) {
+    header {
+      height: 100%; } }
+  @media (max-width: phone) {
+    header {
+      height: 100%; } }
+  @media (max-width: 37.5em) {
+    header nav ul li {
+      margin-right: 0; } }
+  @media (max-width: phone) {
+    header nav ul li {
+      margin-right: 0; } }
+  header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: all .2s; }
+    header nav ul li a:hover {
+      text-decoration: underline;
+      color: #0f0; }
+
+footer {
+  padding: 1em;
+  background: black;
+  width: 100%;
+  height: 1.5em; }
+  @media (max-width: 56.25em) {
+    footer {
+      height: 100%; } }
+  @media (max-width: tab-port) {
+    footer {
+      height: 100%; } }
+  footer a {
+    color: #fff;
+    text-decoration: none; }
+    footer a:hover {
+      color: #0f6; }
+
+.flex .box {
+  flex-direction: row; }
+
+hr {
+  border-top: 1px dashed black; }
+
+.flex div {
+  padding: 1rem;
+  margin: 1rem; }
+  .flex div h3 {
+    padding-bottom: .5em; }
+
+.flex article {
+  margin: auto;
+  width: 50%; }
+  @media (max-width: 56.25em) {
+    .flex article {
+      width: 75%; } }
+  @media (max-width: tab-port) {
+    .flex article {
+      width: 75%; } }
+  @media (max-width: 37.5em) {
+    .flex article {
+      width: 100%; } }
+  @media (max-width: phone) {
+    .flex article {
+      width: 100%; } }
+  @media only screen and (min-width: 900px) {
+    .flex article:nth-of-type(3) {
+      height: 25.11em; } }
+  .flex article button {
+    background: #fff;
+    margin: .5em;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: .5em;
+    transition: all .2s; }
+    .flex article button:hover {
+      background: #000;
+      color: #fff;
+      transform: scale(1.25); }
+  .flex article h3 {
+    margin-bottom: .5rem; }

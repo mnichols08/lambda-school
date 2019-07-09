@@ -1,0 +1,165 @@
+/* Lets take our knowledge of CSS selectors, properties, and inheritance to add some style to the Sweet Eats Bakery website.  
+
+Task 1: Fork this pen.  You will want to have your own version saved.
+
+Task 2: Explore the CSS.  Look at all the unique selectors.  Find things that are new to you and learn what they do.  Find properties you may not be familiar with and google them.
+
+Task 3: Update the CSS.  You will notice the CSS comments throughout the file below.  Follow the instructions to complete the Sweet Eats Bakery site.  If you follow the instructions, you should see this as a final result:
+
+https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png
+
+***DO NOT ATTEMPT STRETCH UNTIL YOU ARE FINISHED WITH EVERYTHING ELSE!***
+
+Stretch Task: Fork your final work and see how much you can change the design without changing the HTML.  Try to transform the site by only using CSS selectors.
+ But what about JS Dom Manipulation?
+Stretch Task: Look at CSS animations and see if you could integrate them on the navigation hovers.
+ Done
+Stretch Task: Pick a navigation item and create a new page with the same header and footer as the home page.  Example: you could make a new page just for cookies.  Be creative and have fun coming up with your own unique content and styles. 
+  Only using CSS?! How in the world could I do that?
+*/
+
+
+/*======= Create a new universal selector that changes the font color to: #3C373B */
+*{
+    color: #3C373B;
+  }
+  
+  h1 {
+    font-family: 'Gaegu', cursive;
+    margin: 20px 0;
+    /*=======  Update the font size to 60px and center the text */
+    font-size: 60px;
+    text-align:center;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-family: 'Gaegu', cursive;
+    margin-bottom: 0;
+    padding: 0 10px;
+    /*=======  Update the font size to 30px */
+    font-size: 30px;
+  }
+  
+  /*======= Create a selector for ALL p tags in the site to have the following styles: */
+  p{
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+  }
+  
+  
+  
+  /*======= Create a selector for ALL images in the site to have the following styles:  */
+  
+  img{
+    border-radius: 10px;
+  }
+  
+  
+  .content-row {
+    display: flex;
+  }
+  
+  .content-row div {
+    /*======= create a margin propery.  Set the value to 20px */
+    margin: 20px;
+  }
+  
+  .container {
+    /*======= create a width property. Set the value to 600px */
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container header nav a {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+     /*======= create a background property. Set the value to #F87B99 */
+    background: #F87B99;
+    transition: background ease 2s, color ease 2s;
+  }
+  
+  .container header nav a:hover {
+  /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+    background:#fff;
+    color: pink;
+    transition: background ease 2s, color ease 2s;
+  }
+  
+  /*======= Create a selector for the about section to have the following styles:*/
+  section.about{
+    margin-top: 20px;
+  }
+  
+  .contact-section {
+    border-top: 1px dashed black;
+    padding: 20px 0;
+  }
+  
+  .contact-section h2 {
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  
+  /*======= Create a selector for the address tag in the contact-section class to have the following styles:*/
+  .contact-section address{
+     line-height: 2;
+  }
+  
+  footer {
+    width: 100%;
+    background: #F87B99;
+    border-top: 1px dashed white;
+  }
+  
+  footer .footer-content { 
+    margin: 0 auto; 
+    /*======= create a width property. Set the value to 600px */
+    width: 600px;
+    
+  }
+  
+  footer .footer-content h3 {
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  footer nav {
+    display: flex;
+  }
+  
+  /*======= Create a selector for the anchor tag in the footer to have the following styles:*/
+  footer a{
+    margin: 10px;
+    color: black;
+    text-decoration: underline;
+    transition: color ease 5s
+  }
+  
+  
+  footer nav a:first-child {
+    margin-left: 0;
+  }
+  
+  /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:*/
+  footer a:hover{
+    color: white;
+    transition:color ease 1s;
+  }
+  
+  footer .footer-content .copyright {
+    padding: 20px 0;
+     /*======= center the text here */
+    text-align:center;
+    width:100%;
+  }
+  .buffer{
+    height:7em;
+  }

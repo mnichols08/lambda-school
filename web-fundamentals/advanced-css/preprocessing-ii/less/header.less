@@ -1,0 +1,75 @@
+.desktop-only {
+    display:none;
+    z-index: -1;
+    @media @desktop {
+        display:block;
+        background: url(../img/fun-bus.jpg);
+        opacity: .25;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 56rem;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-position-y: -18rem;
+        video {
+            display:none;
+        }
+    }
+    @media @desktop-xl {
+        display: block;
+        opacity: .25;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        video {
+            display:block;
+            z-index:-1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
+header {
+    h2 {
+        .transition();
+    }
+    @media @desktop {
+        height: 49rem;
+        &.container {
+            margin-top: 8rem;
+            }
+        img {
+            display: none;
+        }
+        .text-content{
+            padding: 15% 0;
+        }
+        h2 {
+            font-size: 7rem;
+            text-align: center;
+        }
+    }
+    @media @desktop-xl {
+        img {
+            display: none;
+        }
+        height: 32rem;
+        h2 {
+            font-size: 10rem;
+        }
+    }
+    padding-bottom:10px;
+    border-bottom: 2px dashed @navigation-border;
+    .text-content {
+        @media @desktop-xl {
+            text-align: center;
+            margin-top: 25rem;
+        }
+    }
+}

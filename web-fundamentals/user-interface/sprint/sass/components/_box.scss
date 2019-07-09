@@ -1,0 +1,60 @@
+.box {
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+    position: relative;
+    @include transition;
+    &-1 {
+        background: teal;
+        transform: rotate(-45deg);
+    }
+    &-2 {
+        background: gold;
+        color: #000;
+    }
+    &-3 {
+        background: cadetblue;
+        color: #000;
+    }
+    &-4 {
+        background: coral;
+        color: #000;
+    }
+    &-5 {
+        background: crimson;;
+        color: #fff;
+    }
+    &-6 {
+        background: forestgreen;
+        color: #000;
+    }
+    &-7 {
+        background: darkorchid;
+        color:#fff;  
+    }
+    &-8 {
+        background: hotpink;
+        color: #fff;
+    }
+    &-9 {
+        background: indigo;
+        color: #fff;
+    }
+    &-10 {
+        background: dodgerblue;
+        color: #000;
+    }   &:hover { 
+            transform:scale(1.25);
+            box-shadow: 0 1rem 1em rgba(black,.5);
+            @include border-radius-leaf;
+            text-align:center;
+            vertical-align:center;
+            @include transition;
+        }
+        ~ .box{
+            animation: 5.75s hue-rotate infinite;
+            transform: rotate(-45deg);
+     }
+}
+
+

@@ -1,0 +1,153 @@
+/* Your code starts here! */
+
+body {
+	font-family: 'Audiowide', cursive;
+	margin: auto;
+	width: 876px
+}
+
+
+ul,
+li,
+nav,
+.header-content header img {
+	display: inline-block;
+}
+
+.navbar{
+	background: #3f1771;
+    position: fixed;
+	top: 0;
+	left:0;
+	width:100%;
+    height: 4em;
+}
+
+li {
+	margin: 0px 75px 0px -18px;
+}
+
+img.logo {
+	transition: filter 1s ease, transform 1s ease;
+	cursor: pointer;
+	}
+
+img.logo:hover {
+	filter: blur(4px);
+	transition: filter 1s ease, transform 1s ease;
+}
+
+img.logo:active {
+	filter: blur(0);
+	transform: scale(1.1);
+	transition: filter 1s ease, transform 1s ease;
+}
+
+nav li a {
+	color:#fff;
+	text-decoration: none;
+	transition: color 2s ease;
+}
+
+nav li a:hover {
+	color: #00ff00;
+	text-decoration: underline;
+	transition: color 2s ease;
+}
+
+.header-content {
+	margin: 10em 0 -3.5em;
+}
+
+.header-left,
+.header-right {
+	display: inline-block;
+	width: 49%;
+	padding: 2em;
+}
+
+.header-right{
+	background-image: url(../img/header-img.png);
+	margin-bottom:2em;
+    background-repeat: no-repeat;
+	background-attachment: local;
+	width: 379px;
+	height: 379px;
+}
+
+.header-left {
+	text-align: center;
+}
+
+.header-text h1 {
+	font-size: 6em;
+	margin-bottom: 3rem;
+}
+
+button {
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #000;
+	padding: .55em 4em;
+	transition: background ease .5s, transform ease .5s;
+}
+
+button:hover {
+	background: #ccc;
+	transform: scale(1.1);
+	transition: background ease .5s, transform ease .5s;
+}
+
+button:active {
+	background: #000;
+	color: #fff;
+	transform: scale(.9);
+	transition: background ease .5s, transform ease .5s, color ease .5s;
+}
+
+article {
+	display: inline-block;
+	max-width: 32%;
+	text-align: left;
+	padding: 3em 1em;
+}
+
+section.first article {
+	max-width: 49%;
+}
+
+
+.img-break{
+    background: url(../img/mid-page-accent.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: contain;
+    height: 12em;
+}
+
+footer h4,
+footer span,
+footer span a {
+	text-align: left;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	font-size: initial;
+	transition: color 2s ease;
+}
+
+footer span a:hover{
+	color:silver;
+	text-decoration:underline;
+	transition: color 2s ease;
+}
+footer .copyright{
+	position:relative;
+	top:2..5em;
+	font-size:12px;
+}
+footer {
+	text-align: center;
+	display: block;
+	margin-bottom: 18em;
+}
