@@ -3,9 +3,11 @@
 body {
 	font-family: 'Audiowide', cursive;
 	margin: auto;
-	width: 876px
 }
-
+.box {
+	width: 1200px;
+	margin: auto;
+}
 
 ul,
 li,
@@ -56,7 +58,7 @@ nav li a:hover {
 }
 
 .header-content {
-	margin: 10em 0 -3.5em;
+	margin: 2em 0 -3.5em;
 }
 
 .header-left,
@@ -107,18 +109,18 @@ button:active {
 
 article {
 	display: inline-block;
-	max-width: 32%;
+	max-width: 29%;
 	text-align: left;
 	padding: 3em 1em;
 }
 
 section.first article {
-	max-width: 49%;
+	max-width: 46%;
 }
 
 
 .img-break{
-    background: url(../img/mid-page-accent.jpg);
+    background: url(../img/mid-page-accent.jpg)
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: contain;
@@ -149,5 +151,4 @@ footer .copyright{
 footer {
 	text-align: center;
 	display: block;
-	margin-bottom: 18em;
 }
