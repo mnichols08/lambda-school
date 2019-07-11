@@ -14,25 +14,10 @@
 * demonstrate their ability to use the Lambda School Git Workflow to submit an assignment to your Project Manager
 
 ## Resources
-* [GIF visualization of flexbox](https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35) -This quick guide is hugely important to see flexbox in action.
-* [CSS Tricks - Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is a great reference to remember the differences between containers and items in flexbox
-* [Flexbox Froggy](http://flexboxfroggy.com/) - Learn flexbox through a fun and interactive online game!
-* [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/) - This is an awesome visual cheat sheet to help you when you're working through a flexbox problem.
-
-* [A Visual Tutorial With Flexbox](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties) - This is a great resource to visualize flexbox properties in action.
-
-* [Flexbox With Wes Bos](https://flexbox.io/) - This is one of the best free online tutorials on flexbox on the internet.
+* [Command Line Cheat Sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) - For many, the command line belongs to long gone days: when computers were controlled by typing mystical commands into a black window; when the mouse possessed no power. 
 
 ## Practice
-* [Practicing class selectors](https://codepen.io/mnichols08/full/xoQRaZ)
-* [Guided Project](https://codepen.io/BritHemming/full/GbzvxL)
+* [Git-Flow-Practice](./Git-Flow-Practice)
 
-## Challenges
-* [Flexbox Challenge](https://codepen.io/mnichols08/full/bPzaEy)
-* [Flexbox Challenge 2](https://codepen.io/mnichols08/full/pXGaed)
-* [Box Model Tutorial](https://codepen.io/mnichols08/full/jjXpLR)
-* [Display Tutorial](https://codepen.io/mnichols08/full/BgvPwO)
-* [CSS Reset](https://codepen.io/mnichols08/full/WBJBZY)
-
-## Projects
-* [User Interface Project: Services Page](http://mikey.mnzen.com/lambdaschool/projects/User-Interface/UI-III-Flexbox/index.html)
+## Project
+* [Git for Web Development Project](./project)
