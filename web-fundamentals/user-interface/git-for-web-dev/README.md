@@ -1,43 +1,38 @@
-# Git for Web Development Project
-In this project you will be using the concepts learned in the Git for Web Development lesson to fork/clone/push/and submit a PR for each project during this sprint.
+# Git for Web Development
 
-This project consists of two parts:
+### Git is a distributed version control system. What does that mean to a new web developer? It means that git is used to monitor and control code changes made during development across several people or teams.
 
-## Part One:
-You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
+### Git can be overwhelming at first, but if we break it down concept by concept, it starts to be clear why almost everyone in the industry uses it every day.
 
-- [x] Create your own version of this repo - Fork
-- [x] Add your PM as a collaborator
-- [x] Clone this repo
-- [x] Create a branch `git checkout -b 'firstName-lastName'`
-  - [x]] Add a file to the project called `yourFirstName-yourLastName`.txt. This file can contain anything.
-  - [x] Run your usual git commands for adding/commiting and pushing **Be sure to push to your branch!**
-- [ x Create a Pull-Request to submit your work
-  - [x] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [x] Add your PM as a reviewer on the Pull-Request
-- [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+## At the end of this module, you should be able to:
+* explain why we use the command line interface (CLI), and demonstrate use of basic CLI commands.
+* sufficiently explain what version control and Git are, and why as software engineers we use them.
+* demonstrate an ability to fork and clone a repo.
+* understand branching, and be able to create a branch locally.
+* explain and properly utilize the git commands: `status`, `add`, `commit`, and `push`
+* submit a Pull Request.
+* demonstrate their ability to use the Lambda School Git Workflow to submit an assignment to your Project Manager
 
-## Part Two:
-Go back and follow the same steps for your [UI-III-Flexbox project](https://github.com/LambdaSchool/UI-III-Flexbox) and your [User Interface - Great Idea Project](https://github.com/LambdaSchool/User-Interface).
+## Resources
+* [GIF visualization of flexbox](https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35) -This quick guide is hugely important to see flexbox in action.
+* [CSS Tricks - Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is a great reference to remember the differences between containers and items in flexbox
+* [Flexbox Froggy](http://flexboxfroggy.com/) - Learn flexbox through a fun and interactive online game!
+* [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/) - This is an awesome visual cheat sheet to help you when you're working through a flexbox problem.
 
-In order to do this, you **do not** need to create new forks of these projects. Follow the steps below for each project:
+* [A Visual Tutorial With Flexbox](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties) - This is a great resource to visualize flexbox properties in action.
 
-- [ ] Add your PM as a collaborator to your fork. 
-- [ ] Go into your project folder, make a new branch `firstname-lastname`
-- [ ] Add your first and last name to the README.md file in the project and save.
-- [ ] add/commit/and push to your own branch  **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
-- [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+* [Flexbox With Wes Bos](https://flexbox.io/) - This is one of the best free online tutorials on flexbox on the internet.
 
-## Stretch
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-  - [ ] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
-  - [ ] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
+## Practice
+* [Practicing class selectors](https://codepen.io/mnichols08/full/xoQRaZ)
+* [Guided Project](https://codepen.io/BritHemming/full/GbzvxL)
 
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+## Challenges
+* [Flexbox Challenge](https://codepen.io/mnichols08/full/bPzaEy)
+* [Flexbox Challenge 2](https://codepen.io/mnichols08/full/pXGaed)
+* [Box Model Tutorial](https://codepen.io/mnichols08/full/jjXpLR)
+* [Display Tutorial](https://codepen.io/mnichols08/full/BgvPwO)
+* [CSS Reset](https://codepen.io/mnichols08/full/WBJBZY)
 
-- [ ] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push. 
-
+## Projects
+* [User Interface Project: Services Page](http://mikey.mnzen.com/lambdaschool/projects/User-Interface/UI-III-Flexbox/index.html)

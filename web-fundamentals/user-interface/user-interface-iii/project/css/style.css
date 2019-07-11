@@ -146,7 +146,8 @@ nav ul li a {
   font-size: 5em;
   text-align: center;
   max-width: 4em;
-  margin-top: .5em; }
+  margin-top: .5em;
+  transition: all .2s; }
 
 h1 {
   font-size: 2.5em; }
@@ -170,6 +171,7 @@ h1, h2, h3, h4, h5, a {
   .header__container h1.title {
     vertical-align: top;
     font-size: 5em;
+    transition: all .2s;
     max-width: 4em;
     margin-top: .5em;
     text-align: center; } }
@@ -298,7 +300,8 @@ header {
   header img {
     min-width: 75%; }
     header img:hover {
-      cursor: pointer; }
+      cursor: pointer;
+      transition: all .2s; }
   @media only screen and (min-width: 999px) and (max-width: 1000px) {
     header {
       width: 100%;
@@ -396,6 +399,7 @@ header {
     flex-flow: row row-reverse; }
   @media only screen and (max-width: 999px) {
     .flex {
+      transition: all .2s;
       flex-direction: column; }
       .flex-w-75 {
         width: 100%; }
@@ -408,11 +412,12 @@ header {
       .flex-w-25 {
         width: 100%; } }
 
-.header__container h1.title {
-  margin-left: -1em; }
-
-.header__container img {
-  cursor: pointer; }
+.header__container {
+  transition: all .2s; }
+  .header__container h1.title {
+    margin-left: -1em; }
+  .header__container img {
+    cursor: pointer; }
 
 .flex {
   margin-bottom: 1em;
@@ -462,12 +467,14 @@ nav {
 
 .flex-w-50.u-margin-1.u-padding-1 ul {
   list-style: square;
-  margin: 1.2rem; }
+  margin: 1.2rem;
+  transition: all .2s; }
 
 @media only screen and (max-width: 767px) {
   .u-margin-1.u-padding-1.u-border-1.bg-grey {
     margin: -0.1em;
-    margin-bottom: 1em; } }
+    margin-bottom: 1em;
+    transition: all .2s; } }
 
 .bg-grey {
   box-shadow: 1px 1px 1em black; }
