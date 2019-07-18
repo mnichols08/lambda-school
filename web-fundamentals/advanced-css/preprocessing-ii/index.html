@@ -16,6 +16,7 @@
 </head>
 
 <body>
+
   <nav>
   <div class="flex flex-justify-between">
       <h1>Fun Bus</h1>
@@ -28,10 +29,14 @@
   </div>
 </nav>
 <div class="desktop-only">
+    <audio autoplay>
+        <source src="img/schoolbus.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <video class="bg-video" autoplay muted loop>
-        <source src="img/fun-bus.mp4" type="video/mp4">
-        <source src="img/fun-bus.webm" type="video/webm">
-        A video is being played in the background here, but unfortunately your browser is not supported!
+        <source src="img/tour.mp4" type="video/mp4">
+        <source src="img/tour.webm" type="video/webm">
+        <img src="img/tour.jpg" alt="Fun Bus">
       </video>
 </div>
   <header class="container">

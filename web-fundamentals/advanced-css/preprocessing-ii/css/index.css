@@ -570,7 +570,7 @@ nav div a {
 }
 nav div a:hover {
   text-decoration: underline;
-  color: #ff0;
+  color: #aaaaaa;
   text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 @media only screen and (max-width: 500px) {
